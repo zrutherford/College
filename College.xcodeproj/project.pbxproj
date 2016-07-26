@@ -14,6 +14,7 @@
 		450ED4F71D477ACA00B21270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450ED4F51D477ACA00B21270 /* LaunchScreen.storyboard */; };
 		450ED5021D477ACA00B21270 /* CollegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450ED5011D477ACA00B21270 /* CollegeTests.swift */; };
 		450ED50D1D477ACA00B21270 /* CollegeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450ED50C1D477ACA00B21270 /* CollegeUITests.swift */; };
+		450ED51B1D477B2D00B21270 /* CollegeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450ED51A1D477B2D00B21270 /* CollegeClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		450ED5081D477ACA00B21270 /* CollegeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450ED50C1D477ACA00B21270 /* CollegeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeUITests.swift; sourceTree = "<group>"; };
 		450ED50E1D477ACA00B21270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450ED51A1D477B2D00B21270 /* CollegeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeClass.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				450ED4EC1D477ACA00B21270 /* AppDelegate.swift */,
+				450ED51A1D477B2D00B21270 /* CollegeClass.swift */,
 				450ED4EE1D477ACA00B21270 /* ViewController.swift */,
 				450ED4F01D477ACA00B21270 /* Main.storyboard */,
 				450ED4F31D477ACA00B21270 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				450ED4EF1D477ACA00B21270 /* ViewController.swift in Sources */,
+				450ED51B1D477B2D00B21270 /* CollegeClass.swift in Sources */,
 				450ED4ED1D477ACA00B21270 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
