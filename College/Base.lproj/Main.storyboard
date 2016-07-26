@@ -87,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1r8-A2-Ed8">
-                                <rect key="frame" x="200" y="161" width="200" height="30"/>
+                                <rect key="frame" x="200" y="425" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Cc6-XQ-ob9"/>
                                     <constraint firstAttribute="height" constant="30" id="wLk-H1-Ejk"/>
@@ -96,7 +96,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enrollment" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6sm-KH-ry4">
-                                <rect key="frame" x="200" y="209" width="200" height="30"/>
+                                <rect key="frame" x="200" y="473" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="l82-2E-TRN"/>
                                     <constraint firstAttribute="height" constant="30" id="ox5-8T-YcB"/>
@@ -105,7 +105,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fS1-8m-Y42">
-                                <rect key="frame" x="200" y="113" width="200" height="30"/>
+                                <rect key="frame" x="200" y="172" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="E3O-Sr-Hfh"/>
                                     <constraint firstAttribute="height" constant="30" id="hKI-lx-jM0"/>
@@ -114,14 +114,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36b-nY-Ram">
-                                <rect key="frame" x="150" y="289" width="300" height="200"/>
+                                <rect key="frame" x="150" y="210" width="300" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="ZuN-Sg-dkJ"/>
                                     <constraint firstAttribute="width" constant="300" id="xox-e1-ZyX"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeP-uN-auh">
-                                <rect key="frame" x="277" y="541" width="46" height="30"/>
+                                <rect key="frame" x="277" y="106" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4br-x7-XU6"/>
                                     <constraint firstAttribute="width" constant="46" id="Lpk-EP-YBb"/>

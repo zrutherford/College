@@ -22,8 +22,12 @@ class DetailedViewController: UIViewController {
         locationTextField.text = college.location
         enrollmentTextField.text = college.enrollment
         imageView.image = college.image
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action : "dismissKeyboard")
+        view.addGestureRecognizer(tap)
     }
-    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
     @IBAction func onTappedSaveButton(sender: AnyObject) {
         college.name = nameTextField.text!
         college.location = locationTextField.text!
