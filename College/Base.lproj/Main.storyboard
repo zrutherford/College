@@ -37,9 +37,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="BLI-OW-vRA" kind="show" id="fGh-58-1c8"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -47,10 +44,22 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="DTK-ie-g07">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="Dyf-8y-XYu"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="Rhj-Zu-WXe"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="Dyf-8y-XYu">
+                            <connections>
+                                <action selector="onTappedEditButton:" destination="BYZ-38-t0r" id="14s-Ql-9fG"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="Rhj-Zu-WXe">
+                            <connections>
+                                <action selector="onTappedAddButton:" destination="BYZ-38-t0r" id="xW6-8k-Vur"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="editButton" destination="Dyf-8y-XYu" id="yGJ-RZ-jkf"/>
+                        <outlet property="tableView" destination="zpc-KA-OK6" id="q8E-3i-iD5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
