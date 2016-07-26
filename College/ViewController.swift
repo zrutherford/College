@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         editButton.tag = 0
+        college.append(CollegeClass(name: "North Western", location: "Evanston, Illinous", enrollment: "Yes", image: UIImage(named: "NW")!))
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
@@ -78,27 +79,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             tableView.editing = false
             sender.tag = 0
         }
-
-        
+    }
         override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
             let dvc = segue.destinationViewController as! DetailedViewController
             let index = tableView.indexPathForSelectedRow?.row
-            dvc.colleges = college[index!]
+            dvc.college = college[index!]
     }
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
