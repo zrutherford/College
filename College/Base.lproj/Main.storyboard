@@ -33,7 +33,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -87,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1r8-A2-Ed8">
-                                <rect key="frame" x="200" y="425" width="200" height="30"/>
+                                <rect key="frame" x="200" y="478" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Cc6-XQ-ob9"/>
                                     <constraint firstAttribute="height" constant="30" id="wLk-H1-Ejk"/>
@@ -96,7 +96,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enrollment" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6sm-KH-ry4">
-                                <rect key="frame" x="200" y="473" width="200" height="30"/>
+                                <rect key="frame" x="200" y="516" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="l82-2E-TRN"/>
                                     <constraint firstAttribute="height" constant="30" id="ox5-8T-YcB"/>
@@ -105,7 +105,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fS1-8m-Y42">
-                                <rect key="frame" x="200" y="172" width="200" height="30"/>
+                                <rect key="frame" x="200" y="154" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="E3O-Sr-Hfh"/>
                                     <constraint firstAttribute="height" constant="30" id="hKI-lx-jM0"/>
@@ -114,7 +114,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36b-nY-Ram">
-                                <rect key="frame" x="150" y="210" width="300" height="200"/>
+                                <rect key="frame" x="150" y="270" width="300" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="ZuN-Sg-dkJ"/>
                                     <constraint firstAttribute="width" constant="300" id="xox-e1-ZyX"/>
@@ -129,6 +129,29 @@
                                 <state key="normal" title="Save"/>
                                 <connections>
                                     <action selector="onTappedSaveButton:" destination="BLI-OW-vRA" eventType="touchUpInside" id="Ctr-by-DJE"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Websit URL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F25-wF-fCc">
+                                <rect key="frame" x="200" y="192" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ga-mM-7eS">
+                                <rect key="frame" x="420" y="192" width="30" height="30"/>
+                                <state key="normal" title="Visit"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOy-bg-hV4">
+                                <rect key="frame" x="174" y="232" width="105" height="30"/>
+                                <state key="normal" title="Chance Picture"/>
+                                <connections>
+                                    <action selector="onTappedChangePictureButton:" destination="BLI-OW-vRA" eventType="touchUpInside" id="dc9-gs-NKf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCq-0J-SxQ">
+                                <rect key="frame" x="341" y="232" width="85" height="30"/>
+                                <state key="normal" title="Take Picture"/>
+                                <connections>
+                                    <action selector="onTappedTakePictureButton:" destination="BLI-OW-vRA" eventType="touchUpInside" id="GuI-lq-16r"/>
                                 </connections>
                             </button>
                         </subviews>
