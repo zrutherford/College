@@ -16,6 +16,7 @@
 		450ED50D1D477ACA00B21270 /* CollegeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450ED50C1D477ACA00B21270 /* CollegeUITests.swift */; };
 		450ED51B1D477B2D00B21270 /* CollegeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450ED51A1D477B2D00B21270 /* CollegeClass.swift */; };
 		450ED51D1D4783CF00B21270 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450ED51C1D4783CF00B21270 /* DetailedViewController.swift */; };
+		452504151D4A794900C96FA6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452504141D4A794900C96FA6 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		450ED50E1D477ACA00B21270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		450ED51A1D477B2D00B21270 /* CollegeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeClass.swift; sourceTree = SOURCE_ROOT; };
 		450ED51C1D4783CF00B21270 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		452504141D4A794900C96FA6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				450ED4EE1D477ACA00B21270 /* ViewController.swift */,
 				450ED51C1D4783CF00B21270 /* DetailedViewController.swift */,
 				450ED4F01D477ACA00B21270 /* Main.storyboard */,
+				452504141D4A794900C96FA6 /* MapViewController.swift */,
 				450ED4F31D477ACA00B21270 /* Assets.xcassets */,
 				450ED4F51D477ACA00B21270 /* LaunchScreen.storyboard */,
 				450ED4F81D477ACA00B21270 /* Info.plist */,
@@ -265,6 +268,7 @@
 				450ED4EF1D477ACA00B21270 /* ViewController.swift in Sources */,
 				450ED51B1D477B2D00B21270 /* CollegeClass.swift in Sources */,
 				450ED51D1D4783CF00B21270 /* DetailedViewController.swift in Sources */,
+				452504151D4A794900C96FA6 /* MapViewController.swift in Sources */,
 				450ED4ED1D477ACA00B21270 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +496,7 @@
 				450ED5131D477ACA00B21270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		450ED5141D477ACA00B21270 /* Build configuration list for PBXNativeTarget "CollegeTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				450ED5161D477ACA00B21270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		450ED5171D477ACA00B21270 /* Build configuration list for PBXNativeTarget "CollegeUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				450ED5191D477ACA00B21270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
