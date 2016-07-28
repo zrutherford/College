@@ -102,4 +102,5 @@ class DetailedViewController: UIViewController, SFSafariViewControllerDelegate, 
         dvc.college = college
     }
     
+    
 }
