@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         editButton.tag = 0
-        college.append(CollegeClass(name: "North Western", location: "Evanston, Illinous", enrollment: "Yes", image: UIImage(named: "NW")!))
+        college.append(CollegeClass(name: "North Western", location: "Evanston, Illinous", enrollment: "60000", image: UIImage(named: "NW")!, url: "http\\www.google.com"))
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
